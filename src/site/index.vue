@@ -71,8 +71,8 @@
                 }
 
                 if(typeof this.xhr !== 'null') {
-                    this.source.cancel('Operation canceled by the user.');
-                    this.xhr = null;
+                    // this.source.cancel('Operation canceled by the user.');
+                    // this.xhr = null;
                 }
                 this.xhr = this.axios.get('&s=' + this.query, {
                     cancelToken: this.source.token
