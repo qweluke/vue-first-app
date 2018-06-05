@@ -1,6 +1,6 @@
-# beyond-gravity
+# vue first app
 
-> beyond-gravity
+> My first (and basic) app in vue.js
 
 ## Build Setup
 
