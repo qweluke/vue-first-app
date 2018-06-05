@@ -1,0 +1,46 @@
+{
+  "name": "beyond-gravity",
+  "description": "beyond-gravity",
+  "version": "1.0.0",
+  "author": "Lukasz Malicki <lukasz.malicki@polcode.net>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --hot --progress --colors --host 0.0.0.0  --port 8080",
+    "dev2": "cross-env NODE_ENV=development webpack-dev-server --hot --progress --colors --host 0.0.0.0 --port 8090 --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "dev_": "cross-env NODE_ENV=development webpack-dev-server --hot --progress --hide-modules --colors --host 0.0.0.0 --port 8080",
+    "webpack": "NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js --host 0.0.0.0 --port 8080",
+    "build": "cross-env NODE_ENV=development webpack --progress --hide-modules --colors",
+    "prod": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bootstrap-vue": "^2.0.0-rc.11",
+    "vue": "^2.5.11",
+    "vue-axios": "^2.1.1",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1",
+    "vuex-router-sync": "^5.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "cross-env": "^5.1.6",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.4",
+    "laravel-mix": "^2.1.11",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1",
+    "vue-loader": "^13.0.5",
+    "vue-template-compiler": "^2.4.4",
+    "webpack": "^3.12.0",
+    "webpack-dev-server": "^2.9.1"
+  }
+}
