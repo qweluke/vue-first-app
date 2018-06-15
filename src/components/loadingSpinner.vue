@@ -10,7 +10,7 @@
     }
 </script>
 
-<style>
+<style scoped>
 
     .spinner {
         -webkit-animation: rotator 1.4s linear infinite;
