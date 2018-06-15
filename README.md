@@ -15,4 +15,6 @@ npm run dev
 npm run build
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## App Preview
+
+You can see the demo in action here: https://qweluke.github.io/vue-first-app/build
